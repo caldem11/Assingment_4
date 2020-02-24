@@ -10,7 +10,10 @@ namespace Assingment_4
     {
         static void Main(string[] args)
         {
-           
+            Controler con = new Controler();
+            Console.WriteLine("Hit enter to begin");
+            Console.ReadLine();
+            con.control();
         }
     }
 }
